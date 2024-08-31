@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <div>
+            <img class="logo" src="images/logo.png">
+            <img class="user" src="/images/user-avatar.png">
+        </div>
+        <div id= "grid-container">
+            <section class="container">
+                    <img class="avatar" id="image1">
+                    <div class ="infoblock">
+                        <h1 class="name" id="fullname"> </h1>
+                        <h2  class="location" id="location"> </h2>
+                    </div>
+            </section>
+                    <img class="post" id="postimage">
+                    
+                <section class="buttons">
+                    <button id="likebtn">
+                        <img class="btn" src="/images/icon-heart.png">
+                    </button>
+                    <button id="commentbtn">
+                        <img class="btn" src="/images/icon-comment.png">
+                    </button>
+                    <button id="sendbtn">
+                        <img class="btn" src="/images/icon-dm.png">
+                    </button>        
+            </section>
+            
+            <section class="likes">
+                <p class="likenum" id="likenum"></p>
+                <div class= "commentaire">
+                    <p class="com1" id="user"></p>
+                    <p id="comment"></p>
+                </div>
+            </section>      
+        </div>
+       
+             <script src="index.js"></script>
+    </body>
+</html>

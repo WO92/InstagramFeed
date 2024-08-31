@@ -1,0 +1,93 @@
+html, body {
+    margin: 0;
+    width: 375px;
+    height: 1767px;
+    font-family: "Source Code Pro", monospace;
+}
+/* block top */
+.user, .avatar{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+}
+.logo{
+    height: 33.02px;
+    width: 127px;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+.user{
+    float: right;
+    margin-top: 16px;
+    margin-right: 16px;
+}
+
+/* bock 2 */
+h1,h2{
+     margin-left: 51px;
+}
+h1{
+    font-size: 13px;
+    font-weight: 700;
+}
+h2{
+    font-size: 12px;
+    font-weight: 300;
+}
+.avatar{
+    margin-left: 10px;
+}
+.location,.name{
+    margin: 0 51px;
+    margin-left: 10px;
+}
+.infoblock,.avatar{
+    float: left;
+    
+}
+.container{
+    border-top: solid 2px #c4c4c4;
+    margin-top: 17px;
+    padding-top: 10px;
+}
+/* bock image */
+.post{
+   width: 375px; 
+   height: 375px;
+   margin-top: 10px;
+}
+/* bock icon */
+button{
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid white;
+    
+}
+.btn{
+    width: 23px;
+    height: 23px;
+}
+.btn:hover{
+    width: 32px;
+    height: 32px;
+}
+.buttons{
+    display: flex;
+}
+.likes{
+    font-size: 13px;
+    margin-left: 10px;
+}
+.commentaire{
+    display: flex;
+    font-size: 13px;
+}
+.com1,.likenum{
+    margin-top: 0;
+    font-weight: 700;
+    color: black;
+}
+#comment{
+    margin:0;
+    margin-left: 10px;
+}
